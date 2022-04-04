@@ -1,0 +1,30 @@
+[global_config]
+  focus = system
+  title_transmit_bg_color = "#cc241d"
+  title_inactive_bg_color = "#ebdbb2"
+[keybindings]
+[profiles]
+  [[default]]
+    allow_bold = False
+    background_color = "#282828"
+    cursor_color = "#d5c4a1"
+    foreground_color = "#d5c4a1"
+    palette = "#282828:#cc241d:#98971a:#d79921:#458588:#b16286:#689d6a:#d5c4a1:#ebdbb2:#cc241d:#98971a:#d79921:#458588:#b16286:#689d6a:#fbf1c7"
+    copy_on_selection = True
+  [[Base16 Gruvbox Dark]]
+    allow_bold = False
+    background_color = "#282828"
+    cursor_color = "#d5c4a1"
+    foreground_color = "#d5c4a1"
+    palette = "#282828:#cc241d:#98971a:#d79921:#458588:#b16286:#689d6a:#d5c4a1:#ebdbb2:#cc241d:#98971a:#d79921:#458588:#b16286:#689d6a:#fbf1c7"
+    copy_on_selection = True
+[layouts]
+  [[default]]
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+      profile = Base16 Gruvbox Dark
+    [[[window0]]]
+      type = Window
+      parent = ""
+[plugins]
